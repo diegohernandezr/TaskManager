@@ -1,3 +1,30 @@
+Hola Este es mi proyecto Inicial con React "Task Manager".
+
+Este proyecto es una aplicación web desarrollada en React como parte de la práctica de la metodología ágil SCRUM. El objetivo es gestionar un flujo de trabajo dinámico, comenzando por los módulos de seguridad y acceso.
+
+📋 Descripción del Sprint Actual
+Actualmente, el proyecto se encuentra en el Sprint 1, enfocado en la autenticación y la estructura base del tablero. Las tareas están sincronizadas con nuestro tablero en Jira bajo el prefijo TMW.
+
+Tareas en curso (basado en el Sprint Backlog):
+
+---- TMW-001 (Registro de Usuario): Interfaz para el alta de nuevos integrantes.
+
+---- TMW-002 (Inicio de Sesión): Sistema de acceso para usuarios registrados.
+
+---- TMW-Gestor: Tablero visual estilo Kanban para el seguimiento de actividade
+
+🛠️ Tecnologías Utilizadas
+React.js: Para la creación de la interfaz de usuario reactiva.
+
+Metodología SCRUM: Para la planeación y ejecución de tareas.
+
+Jira: Como herramienta de gestión y seguimiento de tickets.
+
+GitHub: Para el control de versiones y alojamiento de código.
+
+
+----Instrucciones de React-----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
