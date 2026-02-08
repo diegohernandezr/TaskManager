@@ -4,7 +4,7 @@ function App() {
   // Estado para controlar la navegación: 'registro', 'login' o 'tablero'
   const [pantalla, setPantalla] = useState('registro');
 
-  // Datos basados fielmente en tu captura de Jira
+  // Datos iniciales
   const tareasEnCurso = [
     { 
       id: "TMW-001", 
@@ -20,7 +20,7 @@ function App() {
     }
   ];
 
-  // --- ESTILOS INTERNOS ---
+  // --- Estilos internos ---
   const estilos = {
     centrado: { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f4f5f7' },
     caja: { backgroundColor: 'white', padding: '40px', borderRadius: '8px', boxShadow: '0 4px 10px rgba(0,0,0,0.1)', textAlign: 'center', width: '350px' },
@@ -33,7 +33,6 @@ function App() {
     avatar: { backgroundColor: '#0052cc', color: 'white', borderRadius: '50%', width: '28px', height: '28px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '11px', fontWeight: 'bold' }
   };
 
-  // --- RENDERIZADO CONDICIONAL ---
 
   // 1. Pantalla de Registro
   if (pantalla === 'registro') {
